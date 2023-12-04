@@ -2,7 +2,7 @@
 
 ## Commande passée
 
-    $ grep -i "star wars" ./sets.csv | sed -e 's/"\(.*\),\(.*\),\(.*\),\(.*\)"/\1\2\3\4/' -e 's/"\(.*\),\(.*\),\(.*\)"/\1\2\3/' -e 's/"\(.*\),\(.*\)"/\1\2/' | awk -F ',' '{ print "| "$3 " | " $2 " |"}' | sort -t, -nk1 | uniq -u >> reponse-amgb.md
+    $ grep -i "star wars" ./sets.csv | sed -e 's/"\(.*\),\(.*\),\(.*\),\(.*\)"/\1\2\3\4/' -e 's/"\(.*\),\(.*\),\(.*\)"/\1\2\3/' -e 's/"\(.*\),\(.*\)"/\1\2/' | awk -F ',' '{ print "| "$3 " | " $2 " |"}' | sort -t, -nk1 | uniq >> reponse-amgb.md
 
 ## Résultat
 
@@ -12,8 +12,10 @@
 | 2000 | Star Wars #2 - Luke/Han/Boba Minifig Pack |
 | 2000 | Star Wars #3 - Troopers/Chewie Minifig Pack |
 | 2000 | Star Wars #4 - Battle Droid Minifig Pack |
+| 2000 | Star Wars Co-Pack |
 | 2000 | Star Wars Minifig Packs 4-Pack |
 | 2000 | Star Wars Podracing Bucket |
+| 2001 | Star Wars Co-Pack |
 | 2002 | Star Wars Co-Pack |
 | 2002 | Star Wars Episode II Co-Pack |
 | 2003 | Star Wars MINI Bonus Pack |
@@ -43,7 +45,10 @@
 | 2006 | Star Wars II: The Original Trilogy - PSP |
 | 2006 | Star Wars II: The Original Trilogy - Xbox 360 |
 | 2006 | Star Wars II: The Original Trilogy - Xbox |
+| 2006 | Star Wars Magnet Set |
+| 2006 | Star Wars Value Pack |
 | 2007 | Star Wars II: The Original Trilogy - MAC-DVD |
+| 2007 | Star Wars Magnet Set |
 | 2007 | Star Wars Magnet Set: Darth Maul Anakin and Naboo Fighter Pilot |
 | 2007 | Star Wars: The Complete Saga - DS |
 | 2007 | Star Wars: The Complete Saga - PS3 |
@@ -57,12 +62,15 @@
 | 2009 | Magnet Set Star Wars |
 | 2009 | Star Wars 10th Anniversary Stormtrooper Magnet |
 | 2009 | Star Wars 10th Anniversary T-Shirt |
+| 2009 | Star Wars Magnet Set |
 | 2009 | Star Wars Stormtrooper T-Shirt |
 | 2009 | Star Wars Super Pack 3 in 1 |
 | 2009 | Star Wars: The Complete Saga - MAC DVD-ROM |
 | 2009 | Star Wars: The Complete Saga - PC DVD-ROM |
 | 2009 | Star Wars: The Visual Dictionary |
 | 2010 | Magnet Set Star Wars - Kit Fisto Barriss Offee Captain Jag |
+| 2010 | Star Wars Magnet Set |
+| 2010 | Star Wars Super Pack 3 in 1 |
 | 2011 | Armor Case Kit for Nintendo DSi - Star Wars III: The Clone Wars |
 | 2011 | Hallmark Keepsake Christmas Tree Ornament - Star Wars Darth Vader |
 | 2011 | Play and Build Kit for Nintendo DS - Star Wars - Anakin Skywalker |
@@ -77,8 +85,10 @@
 | 2011 | Star Wars III: The Clone Wars - PSP |
 | 2011 | Star Wars III: The Clone Wars - Wii |
 | 2011 | Star Wars III: The Clone Wars - Xbox 360 |
+| 2011 | Star Wars Magnet Set |
 | 2011 | Star Wars Miniland Figures (Toy Fair 2011 Collector's Party) |
 | 2011 | Star Wars Sith Kit |
+| 2011 | Star Wars Super Pack 3 in 1 |
 | 2011 | Star Wars: Brickmaster |
 | 2011 | Star Wars: Character Encyclopedia |
 | 2011 | Star Wars: The Padawan Menace |
@@ -89,6 +99,7 @@
 | 2012 | Hallmark Keepsake Christmas Tree Ornament - Star Wars Stormtrooper |
 | 2012 | Star Wars Advent Calendar 2012 |
 | 2012 | Star Wars Battle of Hoth |
+| 2012 | Star Wars Magnet Set |
 | 2012 | Star Wars Poster |
 | 2012 | Star Wars Super Pack 3 in 1 |
 | 2012 | Star Wars ZipBin Toy Box & Playmat |
@@ -99,6 +110,7 @@
 | 2013 | Hallmark Keepsake Christmas Tree Ornament - Star Wars Yoda |
 | 2013 | Star Wars 2014 Pocket Calendar |
 | 2013 | Star Wars Advent Calendar 2013 |
+| 2013 | Star Wars Super Pack 3 in 1 |
 | 2013 | Star Wars: Brickmaster: Battle for the Stolen Crystals |
 | 2013 | Star Wars: The Empire Strikes Out - DVD |
 | 2013 | Star Wars: The Empire Strikes Out |
@@ -136,6 +148,7 @@
 | 2015 | Star Wars Episode IV Poster |
 | 2015 | Star Wars Episode V Poster |
 | 2015 | Star Wars Episode VI Poster |
+| 2015 | Star Wars Super Pack 3 in 1 |
 | 2015 | Star Wars Wall Stickers |
 | 2015 | Star Wars X-wing Fighter |
 | 2015 | Star Wars in 100 Scenes |
@@ -255,6 +268,7 @@
 | 2022 | Limited Edition Star Wars UCS Print |
 | 2022 | Star Wars Advent Calendar 2022 |
 | 2022 | Star Wars: Awesome Vehicles |
+| 2022 | Star Wars: Fun Time |
 | 2022 | Star Wars: Fun To Colour |
 | 2022 | Star Wars: Galactic Adventures |
 | 2022 | Star Wars: Galactic Face-Offs |
