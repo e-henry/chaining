@@ -6,7 +6,7 @@
 
 ## Resultat
 
-| Annee | Nom de la boite |
+| Année | Nom de la boite |
 | ----- | --------------- || 2000 | Star Wars #1 - Sith Minifig Pack |
 | 2000 | Star Wars #2 - Luke/Han/Boba Minifig Pack |
 | 2000 | Star Wars #3 - Troopers/Chewie Minifig Pack |
