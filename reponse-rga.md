@@ -1,4 +1,4 @@
-# Reponse [trigramme]
+# Reponse rga
 
 ## Commande passée
 
