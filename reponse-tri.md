@@ -2,7 +2,7 @@
 
 ## Commande passée
 ```bash
-$ grep -i "Star Wars" sets.csv | sort -t',' -k3n | awk -F ',' 'BEGIN {print "| Year | Nom de la boîte |"} {if ( ~ /^[0-9]+$/) print "| "  " | Star Wars "  " |"}' >> reponse-tri.md
+$ grep -i "Star Wars" sets.csv | sort -t',' -k3n | awk -F ',' 'BEGIN {print "| Année | Nom de la boîte |"} {if ( ~ /^[0-9]+$/) print "| "  " | Star Wars "  " |"}' >> reponse-tri.md
 ```
 ## Résultat
 
