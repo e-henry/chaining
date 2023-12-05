@@ -8,5 +8,4 @@
 ## Résultat
 
 | Année | Nom de la boite |
-|2023 | Luke skywalker en polynésie |
-
+| 2023  | Luke skywalker en polynésie |
