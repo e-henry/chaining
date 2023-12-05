@@ -2,7 +2,7 @@
 
 ## Commande passée
 ```bash
-$ grep -i "Star Wars" sets.csv | sed -e 's/"\(.*\),\(.*\),\(.*\),\(.*\)"/\1\2\3\4/' -e 's/"\(.*\),\(.*\),\(.*\)"/\1\2\3/' -e 's/"\(.*\),\(.*\)"/\1\2/' | awk -F, '{print "| "$3" | "$2" |"}' | sort -u >> reponse-edu.md
+$ grep -i "Star Wars" sets.csv | sed -e 's/"\(.*\),\(.*\),\(.*\),\(.*\)"/\1\2\3\4/' -e 's/"\(.*\),\(.*\),\(.*\)"/\1\2\3/' -e 's/"\(.*\),\(.*\)"/\1\2/' | awk -F, '{print "| "$3" | "$2" |"}' | sort -u >> reponse-tri.md
 ```
 ## Résultat
 
