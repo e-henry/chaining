@@ -42,9 +42,9 @@ sed '1 i\| Année| Nom de la boîte                                             
 | 2022 | Star Wars: Official Annual 2023                                        |
 | 2022 | Star Wars: Smuggler Rebel Hero                                         |
 | 2022 | Star Wars: Stormtrooper Adventures                                     |
-| 2022 | Star Wars: The Skywalker Saga Deluxe Edition – Nintendo Switch       |
-| 2022 | Star Wars: The Skywalker Saga Deluxe Edition – PlayStation 4         |
-| 2022 | Star Wars: The Skywalker Saga Deluxe Edition – PlayStation 5         |
+| 2022 | Star Wars: The Skywalker Saga Deluxe Edition – Nintendo Switch        |
+| 2022 | Star Wars: The Skywalker Saga Deluxe Edition – PlayStation 4           |
+| 2022 | Star Wars: The Skywalker Saga Deluxe Edition – PlayStation 5           |
 | 2022 | Star Wars: The Skywalker Saga Deluxe Edition – Xbox Series X/S Xbox  |
 | 2022 | Star Wars: The Skywalker Saga - PS4                                    |
 | 2022 | Star Wars: The Skywalker Saga - PS5                                    |
