@@ -4,7 +4,7 @@
 
 ```bash
 
-<span>$</span>  grep -i "star wars" sets.csv | sed -e 's/"\(.*\),\(.*\),\(.*\),\(.*\)"/\1\2\3\4/' -e 's/"\(.*\),\(.*\),\(.*\)"/\1\2\3/' -e 's/"\(.*\),\(.*\)"/\1\2/' | awk -F, '{print "| " $3 " | " $2 " |"}' | sort -t "|" -k2,2r | uniq  >>reponse-ate.md
+$ grep -i "star wars" sets.csv | sed -e 's/"\(.*\),\(.*\),\(.*\),\(.*\)"/\1\2\3\4/' -e 's/"\(.*\),\(.*\),\(.*\)"/\1\2\3/' -e 's/"\(.*\),\(.*\)"/\1\2/' | awk -F, '{print "| " $3 " | " $2 " |"}' | sort -t "|" -k2,2r | uniq >> reponse-ate.md
 
 ```
 # Resultat
