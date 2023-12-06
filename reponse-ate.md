@@ -1,5 +1,7 @@
+Here is the command used to get the below output after the header
+```
 grep -i "star wars" sets.csv | sed -e 's/"\(.*\),\(.*\),\(.*\),\(.*\)"/\1\2\3\4/' -e 's/"\(.*\),\(.*\),\(.*\)"/\1\2\3/' -e 's/"\(.*\),\(.*\)"/\1\2/' | awk -F, '{print "| " $3 " | " $2 " |"}' | sort -t "|" -k2,2r | uniq >> reponse-ate.md
-
+```
 | Annee | Nom de la boite |
 | ----- | --------------- |
 | 2024 | Star Wars: 800 Stickers |
