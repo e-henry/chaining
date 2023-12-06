@@ -1,8 +1,6 @@
 Here is the command used to get the below output after the header. Rember to remove >>reponse-ate if you want to display in the console.
 ```
-grep -i "star wars" sets.csv | sed -e 's/"\(.*\),\(.*\),\(.*\),\(.*\)"/\1\2\3\4/'
--e 's/"\(.*\),\(.*\),\(.*\)"/\1\2\3/' -e 
-'s/"\(.*\),\(.*\)"/\1\2/' | awk -F, '{print "| " $3 " | " $2 " |"}' | sort -t "|" -k2,2r | uniq >> reponse-ate.md
+grep -i "star wars" sets.csv | sed -e 's/"\(.*\),\(.*\),\(.*\),\(.*\)"/\1\2\3\4/' -e 's/"\(.*\),\(.*\),\(.*\)"/\1\2\3/' -e 's/"\(.*\),\(.*\)"/\1\2/' | awk -F, '{print "| " $3 " | " $2 " |"}' | sort -t "|" -k2,2r | uniq
 ```
 | Annee | Nom de la boite |
 | ----- | --------------- |
