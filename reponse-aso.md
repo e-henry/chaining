@@ -3,7 +3,7 @@
 
 ## Commande passée
 
-    $ grep -i "star wars" sets.csv | sed -e 's/"\(.\),\(.\),\(.\),\(.\)"/\1\2\3\4/' -e 's/"\(.\),\(.\),\(.\)"/\1\2\3/' -e 's/"\(.\),\(.*\)"/\1\2/' | awk -F',' ' {print "|  " $3 " | " $2 " | "}' | sort | uniq >> reponse-tri.md
+    $ grep -i "star wars" sets.csv | sed -e 's/"\(.\),\(.\),\(.\),\(.\)"/\1\2\3\4/' -e 's/"\(.\),\(.\),\(.\)"/\1\2\3/' -e 's/"\(.\),\(.*\)"/\1\2/' | awk -F',' ' {print "|  " $3 " | " $2 " | "}' | sort | uniq >> reponse-aso.md
 
 
 ## Résultat
